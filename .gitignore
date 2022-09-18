@@ -44,3 +44,10 @@ testem.log
 # System Files
 .DS_Store
 Thumbs.db
+=======
+# Add any directories, files, or patterns you don't want to be tracked by version control
+.idea/
+.project
+out/
+.DS_Store
+
