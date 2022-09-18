@@ -1,2 +1,2 @@
 # Algorithms
-Khan Academy
+Khan Academy and other platforms
