@@ -8,31 +8,33 @@ public class SquaresSorted2 {
     int[] nums = { -1, 10, 3, 4, 2 };
 
     sortAndSquare2(nums);
+
   }
 
   public static int[] sortAndSquare2(int[] array) {
 
-    int indMenores = 0;
-    int indMaiores = array.length - 1;
-
     int[] result = new int[array.length];
 
-    for (int i = array.length; i >= 0; i--) {
+    int smallerValueIndex = 0;
+    int largerValueIndex = array.length - 1;
 
-      int menorValor = array[indMenores];
-      int maiorValor = array[indMaiores];
+    for (int i = array.length -1; i >=0; i--) {
+      int smallerValue = array[smallerValueIndex];
+      int largerValue = array[largerValueIndex];
 
-      if (Math.abs(menorValor) > Math.abs(maiorValor)) {
-        result[i] = menorValor * menorValor;
-        indMenores++;
+      if (Math.abs(smallerValue) > Math.abs(largerValue)) {
+        result[i] = smallerValue * smallerValue;
+        smallerValueIndex++;
       } else {
-        result[i] = maiorValor * maiorValor;
-        indMaiores--;
+        result[i] = largerValue * largerValue;
+        largerValueIndex--;
       }
     }
-    for (int numSortedSquare : result) {
-      System.out.println(numSortedSquare);
-    }
+
+    for ( int n: result ) {
+      System.out.println(n);
+    } 
+
     return result;
   }
 
