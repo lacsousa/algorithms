@@ -3,7 +3,7 @@ package javatests.hackerrankjava;
 import java.util.*;
 import java.io.*;
 
-public class printSeries {
+public class PrintSeries {
 
   public static void main(String[] args) {
 

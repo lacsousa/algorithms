@@ -15,7 +15,6 @@ def findNumbersEvenCountDigits(arr):
 def testFindNumbersEvenCountDigits():
     print('Test FindNumbersEvenCountDigits')
     output = findNumbersEvenCountDigits([12,345,2,6,7896])
-    # output = findFindNumbersEvenCountDigits([1,0,1,1,1,1,0,1,1,1,0])
     print(output)
 
 

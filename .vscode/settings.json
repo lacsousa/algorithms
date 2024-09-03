@@ -2,5 +2,6 @@
   "cSpell.words": [
     "javatests",
     "nums"
-  ]
+  ],
+  "java.debug.settings.onBuildFailureProceed": true
 }
