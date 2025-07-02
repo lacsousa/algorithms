@@ -1,4 +1,4 @@
-package javatests;
+package javatests.hackerrankjava;
 
 public class SquaresSorted2 {
 

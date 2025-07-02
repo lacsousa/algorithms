@@ -1,4 +1,4 @@
-package javatests;
+package javatests.hackerrankjava;
 
 class TwoSumLC {
   public static int[] secArray = new int[2];

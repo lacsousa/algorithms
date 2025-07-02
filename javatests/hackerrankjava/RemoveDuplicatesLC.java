@@ -1,4 +1,4 @@
-package javatests;
+package javatests.hackerrankjava;
 
 class RemoveDuplicatesLC {
   public static void main(String[] args) {
